@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction:column ;
+    width: 248px;
+    border-radius:6px;
+    box-shadow: #C6C6C6;
+}
+.btn{
+    text-align: right;
+    margin-right: 12px;
+}
+.filter-list{
+    list-style-type: none;
+    padding: 0;
+}
+.refinecard{
+    border: 2px solid #999;
+    z-index: 99;
+    width: 214px;
+    margin-top: 2px;
+    border-radius: 6px;
+    display: none;
+}
+
+.filter-list li {
+    padding: 4px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.refine{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    border: 1px solid #9747FF;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 5px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.menu-btn{
+    display: flex;
+    justify-content: space-between;
+}
